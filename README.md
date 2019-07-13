@@ -1,1 +1,2 @@
-# my-blog
+# My Blog
+Uses Okta for User authentication
