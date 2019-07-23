@@ -105,7 +105,7 @@ database.sync().then(() => {
   // // Server Startup // //
   oidc.on("ready", () => {
     app.listen(PORT, () => {
-      console.log(`My Blog App listening at https://localhost:${PORT}!`);
+      console.log(`My Blog App listening at http://localhost:${PORT}!`);
     });
   });
 });
